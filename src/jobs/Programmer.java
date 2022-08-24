@@ -10,8 +10,8 @@ public class Programmer extends Person{
         super(name, age, height);
     }
 
-    public void coding(){
-        System.out.println("I can code");
+    public void introduceName(){
+        System.out.println("I'll code my name as " + this.name);
     }
 
 }
