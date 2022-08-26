@@ -8,8 +8,9 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int fac = 1; //초기값 설정
-        for(int i = num; 1 > 0; i--){ // 반대로 넣어도 작동됨 ++ <
+        for(int i = num; i > 0; i--){ // 반대로 넣어도 작동됨 ++ <
         fac = fac * i; // fac *= i;
+            System.out.println(num + "! = " + fac);
         }
     }
 }
