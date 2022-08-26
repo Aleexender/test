@@ -13,7 +13,7 @@ public class AlgoClass {
         int result = Factorial.recursive(4);
         System.out.println(result);
 
-        result = Factorial.iterative(4);
+        result = Factorial.iterative(6);
         System.out.println(result);
 
 
