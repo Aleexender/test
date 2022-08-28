@@ -1,11 +1,12 @@
 public class Student extends Teacher{
     int fool;
-
+    int knowledge;
      public void study(){
          System.out.println("study");
      }
 
-     public Student(int fool){
-    super(5);
+     public Student(){
+         super(5);
+         System.out.println("my knowledge is " + super.knowledge);
      }
 }
