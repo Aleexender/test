@@ -1,5 +1,4 @@
 public class Student extends Teacher{
-    int knowledge;
 
      public Student(String a){
          System.out.println("study");
@@ -8,5 +7,7 @@ public class Student extends Teacher{
          System.out.println("study");
      }
 
-     
+     public Student(){
+
+     }
 }
