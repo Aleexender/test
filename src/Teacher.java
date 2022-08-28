@@ -1,11 +1,11 @@
 public class Teacher {
-    int knowledge;
+    int knowledge = 30;
 
     public void teach(){
         System.out.println("teach");
     }
 
-    public Teacher(){
-
+    public Teacher(int knowledge){
+        this.knowledge = knowledge;
     }
 }
