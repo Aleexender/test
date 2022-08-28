@@ -1,5 +1,5 @@
 public class Teacher {
-    int knowledge = 30;
+    int knowledge;
 
     public void teach(){
         System.out.println("teach");
