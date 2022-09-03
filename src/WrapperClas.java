@@ -1,5 +1,10 @@
 public class WrapperClas {
     public static void main(String[] args) {
+        int i = 10;
+        Integer iw = new Integer(i); // 박싱(int -> Integer)
+        int i2 = iw.intValue(); // 언박싱(Integer -> int)
+        Integer lll = i;  // 오토박싱
+        int i3 = lll; // 오토 언박싱
         Integer a = 3;
         Integer z = 3;
         Short q = 4;
