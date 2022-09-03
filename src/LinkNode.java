@@ -1,5 +1,5 @@
 public class LinkNode {
-    LinkNode nextNode;
+    LinkNode nextNode; // 이거는 뭐지????
     int value;
 
     public LinkNode(int value){
