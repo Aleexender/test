@@ -3,9 +3,9 @@ import java.util.List;
 
 public class Genetic {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList(); // <> 로 제한을 걸어둔다
-        list.add(1);
-        list.add(2);
+        List<Integer> list = new ArrayList(); // <> 로 제한을 걸어둔다/ 리스트 선언방법
+        list.add(1); // 삽입
+        list.add(2); // 삭제는 List.remove(index) / 전체삭제 - List.clear
         list.add(3);
         int[] array = new int[3];
         array[0] = 1;
