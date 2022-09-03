@@ -18,3 +18,11 @@ public class Array {
         a[4] = "alex";
         a[5] = "king";
         System.out.println(String.valueOf(a));
+        List<Double> ashit = new ArrayList();
+        ashit.add(3.0);
+        ashit.add(4.0);
+        ashit.add(1.0);
+        ashit.add(4.2);
+        System.out.println(ashit);
+    }
+}
