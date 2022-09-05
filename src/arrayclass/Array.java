@@ -17,7 +17,7 @@ public class Array {
         a[3] = "efg";
         a[4] = "alex";
         a[5] = "king";
-        System.out.println(String.valueOf(a));
+        System.out.println(String.valueOf(a)); // 값이 주소값을 프린트 한다.
         List<Double> ashit = new ArrayList();
         ashit.add(3.0);
         ashit.add(4.0);
