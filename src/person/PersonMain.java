@@ -10,7 +10,7 @@ public class PersonMain {
         person1.speak();// 정훈
         person.speak(); // 붕어
         person1.speak(); //  정훈
-        person1.speak2(); // 정훈
+        person1.speak2(); // 붕어
         person1.student.name = "장훈";
     }
 }
