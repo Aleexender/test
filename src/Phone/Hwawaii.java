@@ -5,3 +5,9 @@ public class Hwawaii extends Smartphone {
     public void call() {
         System.out.println("ringing");
     }
+
+    @Override
+    public void record() {
+
+    }
+}
