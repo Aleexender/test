@@ -8,3 +8,11 @@ public class PracticeArraylist {
        ArrayList <Integer> arraylist = new ArrayList<Integer>();
        arraylist.add(3);
        arraylist.add(2);
+
+
+        LinkedList<Integer> linkedList = new LinkedList<Integer>();
+        linkedList.add(2);
+        linkedList.add(3);
+        linkedList.add(4);
+    }
+}
