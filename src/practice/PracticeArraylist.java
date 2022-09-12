@@ -14,5 +14,9 @@ public class PracticeArraylist {
         linkedList.add(2);
         linkedList.add(3);
         linkedList.add(4);
+
+        for(int a : linkedList){
+            System.out.println(a);
+        }
     }
 }
