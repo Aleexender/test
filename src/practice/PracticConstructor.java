@@ -9,3 +9,8 @@ public class PracticConstructor {
     public PracticConstructor(){
         this(12);
     }
+
+    public void engine(){
+        System.out.println("부릉부릉");
+    }
+}
