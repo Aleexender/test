@@ -5,3 +5,7 @@ public class PracticConstructor {
     public PracticConstructor(int carSize){
         this.carSize =carSize;
     }
+
+    public PracticConstructor(){
+        this(12);
+    }
