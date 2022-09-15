@@ -18,5 +18,6 @@ public class PracticeArraylist {
         for(int a : linkedList){
             System.out.println(a);
         }
+        System.out.println(arraylist);
     }
 }
