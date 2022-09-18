@@ -5,3 +5,7 @@ public class PracticeOverridePerson {
         System.out.println("엉엉");
     }
 
+    public void study(){
+        System.out.println("study");
+    }
+}
