@@ -6,3 +6,8 @@ public class PracticeOverideChild extends PracticeOverridePerson{
     public void cry(){
         System.out.println("엉엉");
     }
+
+    public void study(String a) {
+        System.out.println("study");
+    }
+}
