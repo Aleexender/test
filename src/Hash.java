@@ -8,5 +8,6 @@ public class Hash {
         for(String a : list) {
             set.add(a);
         }
+        System.out.println(set);
     }
 }
