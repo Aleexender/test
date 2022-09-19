@@ -17,3 +17,6 @@ public class PracticeTest {
             System.out.println(list2.add(b));//이거 왜 다 트루로 나오는지 고민해보기
             System.out.println(list2.toString());
 
+
+        }
+        return 0;
