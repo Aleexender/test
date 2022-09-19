@@ -24,7 +24,7 @@ public class PracticeTest {
         Integer test = 0;
         test.toString(12);
 //        String ts = "a";
-//        ts.toString("as"); //
+//        ts.toString("as"); // 오버라이딩임
         Boolean as = true;
         as.toString(false);
 //        int ts2 = 10;
