@@ -7,7 +7,7 @@ public class Hash {
         HashSet<String> set = new HashSet();
         for(String a : list) {
             set.add(a);
-            if(set.add(a)){
+            if(set.add(a)){ // 불리언이니 이렇게 해서 할수있음
                 System.out.println(a + "was added!");
             }else{
                 System.out.println(a + "was not added");
