@@ -16,7 +16,6 @@ public class PracticeTest {
             return 1;
         }
         return 0;
-    }
     public String toString(){
         return list2.toString(); // toString() 괄호 안에 뭐를 넣을수있을까? 앞에 있는거에 따라 달라질거같은데
     }
