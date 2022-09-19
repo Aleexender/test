@@ -13,3 +13,7 @@ public class PracticeTest {
     public int sad() {
 
 
+        for (int b = 0; b < list.size(); b++) {
+            System.out.println(list2.add(b));//이거 왜 다 트루로 나오는지 고민해보기
+            System.out.println(list2.toString());
+
