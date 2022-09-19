@@ -7,11 +7,23 @@ public class Hash {
         HashSet<String> set = new HashSet();
         for(String a : list) {
             set.add(a);
-    }
+            if(set.add(a)){
+                System.out.println(a + "was added!");
+            }else{
+                System.out.println(a + "was not added");
+            }
+        }
+        "".toString();
+
+        String a = new ArrayList<>().toString(); //리모컨 없음
+
+
+
         System.out.println(set);
 
         List list2 = new ArrayList();
         for(int b = 0; b < list.size(); b++){
+            list2.add(2);
             System.out.println (list2.add(b)); //이거 왜 다 트루로 나오는지 고민해보기
 
         }
