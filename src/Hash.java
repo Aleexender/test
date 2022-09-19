@@ -7,7 +7,7 @@ public class Hash {
         HashSet<String> set = new HashSet();
         for(String a : list) {
             set.add(a);
-        }
+    }
         System.out.println(set);
 
         List list2 = new ArrayList();
