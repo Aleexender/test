@@ -8,6 +8,6 @@ public class PrConstructorsMain {
 
 
         PracticeTest practiceTest = new PracticeTest();
-        System.out.println(2 + practiceTest.sad(""));
+        System.out.println(2 + practiceTest.sad("")); //만약에 2 라는 int 값 추가면 return 의 1이 추가
     }
 }
