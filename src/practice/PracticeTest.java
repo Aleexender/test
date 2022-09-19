@@ -20,3 +20,8 @@ public class PracticeTest {
 
         }
         return 0;
+    public String toString(){
+        return list2.toString();
+    }
+
+}
