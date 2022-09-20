@@ -13,7 +13,7 @@ public class PracticeTest {
     public int sad(String a) {
         System.out.println("i am really " + a);
         if ("".equals(a)) { // 이렇게 리턴값을 돌려줌으로써 void 역할을 할수있음
-            return 1;
+            return 1; // 리턴을 해서 같이 뭔가를 실행해야할때 필요함
         }
         return 0;
     }
