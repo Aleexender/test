@@ -24,7 +24,7 @@ public class Hash {
         List list2 = new ArrayList();
         for(int b = 0; b < list.size(); b++){
             list2.add(2);
-            System.out.println (list2.add(b)); //이거 왜 다 트루로 나오는지 고민해보기
+            System.out.println (list2.add(b)); //이거 왜 다 트루로 나오는지 고민해보기 // 중복값을 허용하는데 print 되는데까지가 맨마지막 a 이기 때문에 가능한거임
 
         }
     }
