@@ -9,6 +9,11 @@ public class PracticeTest {
 
     List<String> list = new ArrayList<>(Arrays.asList(new String[]{"a", "b", "c", "a"}));
     List list2 = new ArrayList();
+    public void ptsd(){
+        for(String a: list){
+            list2.add(a);
+        }
+    }
 
     public int sad(String a) {
         System.out.println("i am really " + a);
