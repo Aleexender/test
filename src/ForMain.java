@@ -10,3 +10,6 @@ public class ForMain {
         list.add(4);
         list.add(5);
 
+        for(int i =0; i < list.size();i++){
+            System.out.println(list.get(i));
+        }
