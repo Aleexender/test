@@ -12,3 +12,17 @@ public class CustomThread extends Thread{
         this.list = list;
 
      }
+
+
+    @Override
+    public void run(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println(this.a);
+        this.list.add(this.a);
+
+    }
+}
