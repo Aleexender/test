@@ -17,3 +17,20 @@ public class Example3 {
 //            }
 
         }
+
+
+
+        public static void main(String[] args) throws Exception {
+
+//            try {
+//
+                handlingException();
+//
+//            } catch (Exception e) {
+//
+//                System.out.println("main() 메소드에서 예외가 처리됨!");
+//
+//            }
+
+        }
+}
