@@ -18,3 +18,17 @@ public class PracticeThrows{
 
         }
     }
+
+    public static void main(String[] args){
+
+        try{
+            asd();
+
+        } catch(Exception e){
+
+            System.out.println("error 404");
+
+        }
+
+    }
+}
