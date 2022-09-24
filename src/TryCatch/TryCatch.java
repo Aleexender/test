@@ -15,3 +15,13 @@ public class TryCatch {
         }finally {
             System.out.println("sadasdasd");
         }
+        System.out.println("done");
+
+        String b ="a";
+        try {
+            Integer c = Integer.parseInt(b);
+        }catch (NumberFormatException numberFormatException){
+            System.out.println("error");
+        }
+    }
+}
