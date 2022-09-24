@@ -7,7 +7,8 @@ public class PracticeHashMap {
         String answer = "";
         Map<String,Integer> map = new HashMap<>();
         for(String each : participant){
-            if(map.containsKey(each)){
+            System.out.println(each);
+            if(map.containsKey(each)){ // 똑같은 이름이 들어가있으면 true 아니면 false
                 map.put(each,map.get(each) + 1);
             }else{
                 Integer integer = map.get(each);
