@@ -14,3 +14,9 @@ public class ForEnhanced {
             System.out.println(list.get(a));
         }
 
+
+        for(int a : list){
+            System.out.println(a);
+        }
+    }
+}
