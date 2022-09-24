@@ -10,3 +10,8 @@ public class TryCatch {
             if("a".equals(a)){
                 System.out.println("a=a");
             }
+        }catch (Exception exception){
+            System.out.println("error in ");
+        }finally {
+            System.out.println("sadasdasd");
+        }
