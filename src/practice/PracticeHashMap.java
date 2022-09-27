@@ -9,9 +9,9 @@ public class PracticeHashMap {
         for(String each : participant){
             System.out.println(each);
             if(map.containsKey(each)){ // 똑같은 이름이 들어가있으면 true 아니면 false
-                map.put(each,map.get(each) + 1);
-            }else{
-                Integer integer = map.get(each);
+                map.put(each,map.get(each) + 1); // 들어가있으면
+            }else{ // 안들어가있으면
+              Integer integer = map.get(each); //여기에 왜 인티저로 들어가있을까 숫자 넣어야 해서 그런듯?
                 map.put(each,1);
             }
         }
