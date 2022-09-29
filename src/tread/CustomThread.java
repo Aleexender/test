@@ -10,7 +10,6 @@ public class CustomThread extends Thread{
      public CustomThread(int a, List<Integer> list){
         this.a = a;
         this.list = list;
-
      }
 
 
@@ -21,8 +20,9 @@ public class CustomThread extends Thread{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(this.a);
-        this.list.add(this.a);
+        list.add(a);
+        list.remove(0);
 
     }
+
 }
