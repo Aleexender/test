@@ -14,3 +14,13 @@ public class PracticeStackQueue {
         stack.push(4);
         stack.add(5);
 
+        queue.offer(1);
+        queue.offer(2);
+        queue.offer(3); // false
+        queue.add(4); // 에러 발생
+
+
+
+    }
+}
+
