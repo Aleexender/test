@@ -16,3 +16,9 @@ public class HashMap123 {
                 System.out.println(key);
             }
         }
+
+
+        System.out.println(map.get("weq")); //key
+
+    }
+}
