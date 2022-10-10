@@ -11,7 +11,7 @@ public class HashMap123 {
         map.put("weq2",125);
 
 
-        for(String key : map.keySet()){ // k가아닌값으로 찾는 방법 keyset 방식
+        for(String key : map.keySet()){ // k가아닌값으로 찾는 방법 keyset 방법 (벨류로 키를 찾는방법)
             if(map.get(key)== 122) {
                 System.out.println(key);
             }
