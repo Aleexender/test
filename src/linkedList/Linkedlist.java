@@ -18,3 +18,10 @@ public class Linkedlist {
 //        linkedList.clear(); // 모든 데이터 제거
 
         linkedList.set(0, 3);
+
+
+        System.out.println(linkedList.size());
+        System.out.println(linkedList.contains(3)); // True False  로 반환
+        System.out.println(linkedList.indexOf(8)); // 해당 값이 있으면 1 을 반환, 없으면 -1을 반환
+    }
+}
