@@ -9,3 +9,10 @@ public class KeySetMethod {
         hashMap.put(2, "two");
         hashMap.put(3, "three");
         hashMap.put(4, "four");
+
+        for (Integer key : hashMap.keySet()) {
+            String value = hashMap.get(key);
+            System.out.println(key);
+        }
+    }
+}
