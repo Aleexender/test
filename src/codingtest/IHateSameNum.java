@@ -17,7 +17,7 @@ public class IHateSameNum {
                 list.add(n); // 두값이 다를때 n을 추가
             temp = n;
         }
-        return list; // 위에있는 리스트를 리턴
+        return list;
     }
 }
 
