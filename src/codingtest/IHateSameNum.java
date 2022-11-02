@@ -3,7 +3,7 @@ package codingtest;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IHateSameNum { // 프로그래머스
+public class IHateSameNum { // 프로그래머스1 번째
 
     public List<Integer> solution(int []arr) {
 
