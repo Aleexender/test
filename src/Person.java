@@ -1,22 +1,26 @@
-public class Person {
+public class Person  {
 
-    String name;
-    int age;
+    Car car;
+    String name = "정훈";
+    Tesla tesla = new Tesla(); // 강한 결합
+    int age = 10;
 
-    void introduce(){
-        System.out.println("hi My name is : " + this.name);
+
+    public Person(Tesla tesla) { // DI
+        this.car = car;
     }
 
-    void introduce2(){
-        if("민우".equals(this.name)){
-            System.out.println("hi My name is 민우");
-        }
-        if("정훈".equals(this.name)){
-            System.out.println("hi My name is 정훈");
-        }
-        if("혜정".equals(this.name)){
-            System.out.println("hi My name is 혜정");
+    public void kiaMove() {
+//        kia.move();
+    }
 
-        }
+//    public void KiaStop() {
+//        kia.breakPedal();
+//    }
+
+
+    public void getCar() {
+        car.move();
+        car.breakPedal();
     }
 }
