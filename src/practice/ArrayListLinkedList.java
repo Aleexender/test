@@ -1,10 +1,12 @@
 package practice;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListLinkedList {
     public static void main(String[] args) {
         ArrayList<Integer> integerArrayList = new ArrayList<>();
+
 
         integerArrayList.add(1);
         integerArrayList.add(2);
